@@ -1,1 +1,2 @@
-# MLOps_Football_Predictions
+# Репозиторий для проекта по курсу https://ods.ai/tracks/ml-in-production-spring-23
+Проект - предсказание результатов футбольных матчей
