@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "mlops-football-predictions"
+version = "0.1.0"
+description = "Проект - предсказание результатов футбольных матчей"
+authors = ["Kirill <kasurkov2797@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "mlops_football_predictions"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^2.0.1"
+numpy = "^1.24.3"
+scikit-learn = "^1.2.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^2.17.3"
+mypy = "^1.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
